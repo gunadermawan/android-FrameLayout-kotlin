@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgvw1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_foreground"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Silahkan Login"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="120sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80sp"
+        android:background="#142D4C"
+        android:padding="10dp"
+        android:hint="masukan email kamu"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:hint="masukan password kamu"
+        android:background="#142D4C"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="150dp"
+        android:background="#142D4C"/>
+
+</FrameLayout>
